@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pack & Run 1C",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "cmd.exe",
+            "runtimeArgs": ["/c", "${workspaceFolder}\\run.bat"],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Pack 1C",
+            "console": "integratedTerminal"
+        }
+    ]
+}
